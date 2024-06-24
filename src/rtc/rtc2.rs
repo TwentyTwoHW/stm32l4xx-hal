@@ -81,7 +81,8 @@ pub fn is_alarm_b_accessible(rtc: &RTC) -> bool {
     feature = "stm32l4r7",
     feature = "stm32l4s7",
     feature = "stm32l4r9",
-    feature = "stm32l4s9"
+    feature = "stm32l4s9",
+    feature = "stm32l476"
 )))]
 pub const BACKUP_REGISTER_COUNT: usize = 20;
 #[cfg(any(
@@ -90,7 +91,8 @@ pub const BACKUP_REGISTER_COUNT: usize = 20;
     feature = "stm32l4r7",
     feature = "stm32l4s7",
     feature = "stm32l4r9",
-    feature = "stm32l4s9"
+    feature = "stm32l4s9",
+    feature = "stm32l476"
 ))]
 pub const BACKUP_REGISTER_COUNT: usize = 32;
 
